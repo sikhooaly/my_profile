@@ -66,7 +66,7 @@ class WelcomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final isDark = Theme.of(context).brightness == Brightness.dark;
-    
+
     return Scaffold(
       body: Container(
         decoration: BoxDecoration(
@@ -223,7 +223,7 @@ class ProfileScreen extends StatelessWidget {
             const SizedBox(height: 20),
             // Name and Profession
             const Text(
-              'John Doe',
+              'Ahmed Sikander',
               style: TextStyle(
                 fontSize: 28,
                 fontWeight: FontWeight.bold,
@@ -267,17 +267,17 @@ class ProfileScreen extends StatelessWidget {
                     children: [
                       ContactItem(
                         icon: Icons.email,
-                        text: 'john.doe@example.com',
+                        text: 'ahmedsikander804@gmail.com',
                       ),
                       const Divider(height: 20),
                       ContactItem(
                         icon: Icons.phone,
-                        text: '+1 (555) 123-4567',
+                        text: '03554727215',
                       ),
                       const Divider(height: 20),
                       ContactItem(
                         icon: Icons.location_on,
-                        text: 'San Francisco, CA',
+                        text: 'Gilgit , Pakistan',
                       ),
                     ],
                   ),
@@ -432,13 +432,13 @@ class AboutMeScreen extends StatelessWidget {
                 EducationItem(
                   degree: 'Bachelor of Science in Computer Science',
                   institution: 'University of California, Berkeley',
-                  year: '2015 - 2019',
+                  year: '2023 - 2027',
                 ),
                 SizedBox(height: 15),
                 EducationItem(
                   degree: 'Mobile App Development Certification',
                   institution: 'Google Developers Certification',
-                  year: '2020',
+                  year: '2025',
                 ),
               ],
             ),
@@ -470,13 +470,15 @@ class AboutMeScreen extends StatelessWidget {
                 HobbyItem(
                   icon: Icons.camera_alt,
                   title: 'Photography',
-                  description: 'Capturing moments and exploring the world through my lens.',
+                  description:
+                      'Capturing moments and exploring the world through my lens.',
                 ),
                 SizedBox(height: 15),
                 HobbyItem(
                   icon: Icons.hiking,
                   title: 'Hiking',
-                  description: 'Exploring trails and enjoying nature on weekends.',
+                  description:
+                      'Exploring trails and enjoying nature on weekends.',
                 ),
                 SizedBox(height: 15),
                 HobbyItem(
