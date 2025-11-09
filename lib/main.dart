@@ -212,7 +212,7 @@ class ProfileScreen extends StatelessWidget {
                 ),
                 child: ClipOval(
                   child: Image.network(
-                    'https://picsum.photos/seed/profile123/300/300.jpg',
+                    'im.jpg',
                     width: 150,
                     height: 150,
                     fit: BoxFit.cover,
@@ -431,7 +431,8 @@ class AboutMeScreen extends StatelessWidget {
               children: const [
                 EducationItem(
                   degree: 'Bachelor of Science in Computer Science',
-                  institution: 'University of California, Berkeley',
+                  institution:
+                      'karakuram international university gilgit baltistan  pakistan',
                   year: '2023 - 2027',
                 ),
                 SizedBox(height: 15),
@@ -458,6 +459,7 @@ class AboutMeScreen extends StatelessWidget {
                 SkillChip(label: 'UI/UX Design'),
                 SkillChip(label: 'State Management'),
                 SkillChip(label: 'Agile/Scrum'),
+                SkillChip(label: 'Web develpment'),
               ],
             ),
           ),
